@@ -59,8 +59,25 @@ public class CalculatorTest {
 	}
 
 	
+	//double firstNumber = 6.0;
+	//double secondNumber = 0.0;
+	//@Test
+	//public void divideShouldThrowExc(){
+	//givenNumberWithZero();	
+	//Exception exception = null;
+	//catchException(() -> calculator.divide(firstNumber, secondNumber));
+	//try {
+	//	runnable.run();
+	//	
+	//}
+	//calculator.divide(firstNumber, secondNumber);
+	//} catch (Exception e) {
+	//	exception = e;
+	//	Assert.assertTrue(e.getClass().equals(DivisiorCannotBeZeroException.class));
+	//}
+	
 	@Test
-	public void divideShouldReturnCorrstResult() {
+	public void divideShouldReturnCorrectResult() {
 		double firstNumber = 10.0;
 		double secondNumber = 2.0;
 		
