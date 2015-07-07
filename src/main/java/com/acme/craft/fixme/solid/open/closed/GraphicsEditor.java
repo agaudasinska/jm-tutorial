@@ -7,6 +7,11 @@ public class GraphicsEditor {
 		
 	}
 	
+	
+	public void draw(){
+		
+	}
+	
 	public void drawRectangle(Rectangle s) {
 		
 	}
