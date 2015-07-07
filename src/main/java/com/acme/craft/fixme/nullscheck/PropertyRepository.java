@@ -4,10 +4,9 @@ import java.util.Optional;
 
 public class PropertyRepository {
 
-	public Property get(String propertyId) {
+	public Optional <Property> get(String propertyId) {
 		// sth goes wrong...
-		return Optional<T>.empty()
-	}
+		return Optional.empty();
 
 	public void save(Property property) {
 		// sth sophisticated happened...
