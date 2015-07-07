@@ -3,6 +3,9 @@ package com.acme.craft.fixme.boilerplate;
 import java.io.Serializable;
 import java.util.Map;
 import java.util.UUID;
+//@setter
+//@getter //automatyczne generowanie
+//@data
 
 public class DeviceDto implements Serializable {
 	private static final long serialVersionUID = -8984798902681813138L;
